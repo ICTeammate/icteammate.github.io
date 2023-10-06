@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+body {
+	background: #DCE1DE;
+	font-family: sans-serif;
+	margin: 0;
+}
+
+#nav {
+	background: #216869;
+	display: flex;
+	max-height: 72px;
+	overflow: hidden;
+	position: fixed;;
+	top: 0px;
+	width: 100%;
+}
+
+
+#logo {
+	max-height: 64px;
+	padding: 4px 0;
+	align-self: center;
+}
+
+.nav-button {
+	background: inherit;
+	border: none;
+	color: #FFFFFF;
+	font-size: 28px;
+	font-weight: 500;
+	height: inherit;
+	margin: 0;
+	padding: 0 16px;
+}
+
+.nav-button:hover {
+	border-bottom-left-radius: 12px;
+	border-bottom-right-radius: 12px;
+	background-color: #49A078;
+	cursor: pointer;
+}
+
+#nav-image {
+	border-bottom-left-radius: 0;
+}
+
+#content {
+	margin: 8px;
+	margin-top: 88px;
+}
