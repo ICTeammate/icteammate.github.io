@@ -2,7 +2,7 @@
 
 body {
 	background: #DCE1DE;
-	font-family: sans-serif;
+	font-family: cursive;
 	margin: 0;
 }
 
@@ -16,7 +16,6 @@ body {
 	width: 100%;
 }
 
-
 #logo {
 	max-height: 64px;
 	padding: 4px 0;
@@ -27,6 +26,7 @@ body {
 	background: inherit;
 	border: none;
 	color: #FFFFFF;
+	font-family: inherit;
 	font-size: 28px;
 	font-weight: 500;
 	height: inherit;
@@ -46,6 +46,45 @@ body {
 }
 
 #content {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
 	margin: 8px;
 	margin-top: 88px;
+}
+
+.card {
+	display: flex;
+	height: 280px;
+	margin: 4px;
+	max-height: 280px;
+	width: 95%;
+}
+
+.card-container {
+	background: #216869;
+	border-radius: 12px;
+	display: inline-block;
+	height: calc(100% - 16px);
+	margin: 8px;
+	width: 40%;
+}
+
+.card-text {
+	display: inline-flex;
+	flex-grow: 1;
+	font-size: 40px;
+	font-weight: 600;
+	height: calc(100% - 16px);
+	justify-content: center;
+	align-content: center;
+	flex-direction: column;
+	margin: 0 8px;
+	max-width: 60%;
+	padding: 8px;
+	text-align: left;
+}
+
+.card-text-right {
+	text-align: right;
 }
